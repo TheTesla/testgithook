@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+echo "Hello"
+git rev-parse HEAD > version
+
