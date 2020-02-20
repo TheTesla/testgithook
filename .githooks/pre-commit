@@ -4,3 +4,6 @@
 echo "Hello"
 git rev-parse HEAD > version
 
+echo -e "#!/usr/bin/env python\n# This is an automaticalliy generated file!\n__version__=$(git tag)\n" > testgithook/__init__.py
+
+
