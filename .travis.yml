@@ -1,0 +1,6 @@
+deploy:
+  provider: pypi
+  user: Tesla42
+  password:
+    secure: wztd
+
