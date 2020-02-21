@@ -5,6 +5,7 @@ python:
 
 script:
   - echo "hello"
+  - python setup.py sdist
 
 stages:
   - deploy
