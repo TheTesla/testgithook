@@ -6,4 +6,6 @@ git rev-parse HEAD > version
 
 echo -e "#!/usr/bin/env python\n# This is an automaticalliy generated file!\n__version__=$(git tag | tail -n 1)\n" > testgithook/__init__.py
 
+# add before commit
+git add -A
 
