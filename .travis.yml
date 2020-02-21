@@ -1,4 +1,5 @@
-language: python
+stages:
+  - deploy
 
 deploy:
   provider: pypi
