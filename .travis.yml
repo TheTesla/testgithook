@@ -1,18 +1,14 @@
 language: python
 python:
-  - 2.7
-  - 3.8
-
+- 2.7
+- 3.8
 script:
-  - echo "hello"
-  - python setup.py sdist
-
+- echo "hello"
+- python setup.py sdist
 stages:
-  - deploy
-
+- deploy
 deploy:
   provider: pypi
-  user: Tesla42
+  user: __token__
   password:
-    secure: "AgHJNfVHET0TYz6SEhgefpBcpQGM2p5pXC8ZDcfdcf+izv5Jpgr3VDRnWzWMASB/RmFxXTp8Vnapd/Pj3R9ewsp/V9EN4RWGFru4lDm+c1iLzAcI4AzoARkwlZu2xagl3Au1NJmc1yyEPkic5yk7NiZIMQEauWzN8i/7AIsx/WtJcHXaaCdqHBXcXK2Zcas2goQspxp0qZIOzcdNlS9hcAZ9MSRloU4MmVZyF4Pz5pVbWafSOAR7PIgeQoTtQ4i5zYjC3A2la1utn64ApNRoAhHxdM+Xtv1Nr3fZQifg3z29IJRHsp69dpZd7Uef45To5PErrcrKtyqkWPyYcL8UKK8btYSLLkp7Hi4lNscayOr2LF7LofLxVJdrctRjccFvQAxgd0U5cYo9EFl4lc0HDRQmqSSJc3Js25ruxRYuqsp11hcjLKHHQNTbPZ5SKw7HPY+nMmqdVSqnInt0ShQJl58Y8RKCfm33Uupxgl/DS0OKtKtJYVmR7I/V60CS63x0ZPeet0NnOiLD31yoYu+zfcVUlu4HDThlLO9TfMH/kbrtLPCQTRJi6cCDla0EK1JY2HjS8RrPfJ3fiIFT0EMrEVhP1J3eNOHhEqYWqgcdbioxsRUSngQNyZje/zaxv2UVqOI0Ml9+N4j0Y5cvOfGZXOEtTjfrBO9qqnWihO2+wQo="
-
+    secure: PvVrDkQ+C9qJ4Xah4biRTqYGhSjJyvN3jC8Nl0Wb8U+TcMidj0RSGpwW2Zjn5V9D3VzAHQwFGhMbviW4KTl09arA3mcT5OcRNlOyBgGg5H0bGrAvZg557+5TbesAvjUMhwNr+xzWlsmTf8Zugau5N+NBNpnuSRI8eNn57y246ldhzuOphEeVX+dlFXf4i0gC1nzMu0ixt7Bb36LLyJhCwjzQHXDuA/V+PS7l7FHec6nyMDIKWFxX0feZmMFEu6v+CAX6Lm2ZmhWNVYtKgejZcv26BOzbuKYAC29aYDEWMQHOCfWYo7A9VJiOK+f4sSJysAyKOvKn9lNIjTjrg/m0LQA09XnST7OY3rx1L4xU19iumsNG/tNqHsAdn8sKKBgzwPIOJU8rxBvtoen7LPcypP5cIkZ5DHNSEdzta0v5Z8iSIUYHLmFVklSycp8Qqi2aZz/uTUs/rp1EWhU778v5cOGgJ9N5xX21tpt6r7EMIW5by7z0u7xeXupMlDWiFeejbbMIuIbi3z226U6zfJpx0i3H8Dp7phN7vI/49qxguGB7u07ojwbXIgOtej8UtlcXCOcJDwCqGr46b/UdHKgt6RmgvEkAk1Ftm4v5UF5B5IcbY2djV2w6UMePmX7ALzXRsubYkl28PaUr0PrDdbfa+abZwDcC34kkly3WwBkgW8k=
