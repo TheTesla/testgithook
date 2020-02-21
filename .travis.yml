@@ -4,7 +4,7 @@ python:
 - 3.8
 script:
 - echo "hello"
-- python setup.py sdist
+  #- python setup.py sdist
 stages:
 - deploy
 deploy:
